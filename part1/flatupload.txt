@@ -1,0 +1,11 @@
+1. Part 1: Flat upload. (1 mark).
+Using the dataset you chose, upload the contents into the collection(s)
+that you have created for it.
+
+steps:
+1. i downloaded the pokemon.csv from the website.
+
+2. within studio 3T (mongo chief) I created a db called assignment
+right clicked on assignment db and imported (import collections) the pokemon.csv file
+choosing the csv type and next.
+This imported the data as a document called pokemon

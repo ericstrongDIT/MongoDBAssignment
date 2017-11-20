@@ -1,0 +1,45 @@
+
+1:few
+pokemon.character{
+    number {},
+    pokemon_name: {...},
+    types:[type1: {...},type2: {...}],
+    attibutes:[attack{}etc...],
+    generation: {...},
+    legendary:{}
+
+}
+
+
+1:many
+pokemon.types{
+        bug:[ id],
+        dark: [id],
+        dragon: [id],
+        electric: [id],
+        fairy: [id],
+        fighting: [id],
+        fire: [id],
+        flying: [id],
+        ghost: [id],
+        grass: [id],
+        ground: [id],
+        ice: [id],
+        normal: [id],
+        poison: [id],
+        psychic: [id],
+        rock: [id],
+        steel: [id],
+        water: [id]
+
+
+}
+
+
+
+
+//ideas for subset queries
+
+1) top 50 strongest pokemon based on total value
+2) all legendary gen 1 pokemon
+3) all fire type pokemon gen 1, all grass type pokemon gen 1, all water type pokemon gen 1, all pyschic pokemon gen 1
